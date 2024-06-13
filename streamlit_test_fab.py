@@ -50,7 +50,7 @@ class BedrockWrapper:
 
 # Initialize Bedrock
 bedrock = BedrockWrapper("bedrock", AWS_REGION)
-model_id = 'anthropic.claude-3-sonnet-20240229-v1:0'
+model_id = 'anthropic.claude-v2'
 bedrock.set_model(model_id)
 
 params = {
